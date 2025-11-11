@@ -1,0 +1,150 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px 150px;
+  color: #f9faf8;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 80px 150px;
+}
+
+.hero text {
+  max-width: 450px; 
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+ .hero-text p {
+  color: #e5e7eb;
+    margin: 15px 0;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-color: gray;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.info {
+  text-align: center;
+  padding: 60px 15;
+}
+
+info h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.info-container {
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+}
+.info-item {
+   max-width: 100px;
+}
+
+
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+  text-align: left;
+}
+
+.quote p {
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* CTA Section */
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.cta-box button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
